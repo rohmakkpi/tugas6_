@@ -42,7 +42,7 @@ class _homePage extends State<homePage> {
         _result = (4 / 5) * _inputUser;
     });
 
-    listViewItem.add(_result.toString());
+    listViewItem.add(_newValue + ":" + _result.toString());
   }
 
   @override
